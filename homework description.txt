@@ -12,6 +12,8 @@ The homework ended up being short since we reused a lot of already existing code
 to maintain the flow of the algorithm, for example that we dont delete v's but collapse them to the same value keeping the V's size the same.
 The hard as I said was understanding hwo the collapse edge flow should work and to increase our knowledge in the code overall.
 
+To run the project, replace the following files in a fresh project.
+IMPORTANT: We could not upload the entire file, too large and we had no time before the deadline
 
 
 CREDIT: Ahmad Jabareen 207491101, Mohamad Kabha 206418592.
