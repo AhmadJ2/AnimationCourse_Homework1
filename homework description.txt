@@ -1,0 +1,17 @@
+1)	We have stored a Q matrix for each V for each data (object) in the sandbox.h, and initialized it according to the algorithm.
+	We ran on a loop for all faces instead of verteces because we did not manage to find the function that builds VF matrix, (comparing to manual run, it worked the same).
+
+2)	We followed the calculations to update the Q for every V, we updated every run, despite being allowed to update it every 'k' runs, the update was simply Q' = Q1 + Q2.
+
+3) 	For the cost, we also followed the formula of cost = Qs.at(v') = (Qs(v1) + Qs(v2)) * p.transpose
+
+4)	When collapsing an edge, we also delete other verteces (we dont really do, since the data base does not remove any v from the V matrix, we simply "collapse" both to the same value)
+	giving each Q' = Qi+Qk (j and k are the verteces of the edge)
+
+The homework ended up being short since we reused a lot of already existing code, but understanding how the data base and the collapse edge should both work together
+to maintain the flow of the algorithm, for example that we dont delete v's but collapse them to the same value keeping the V's size the same.
+The hard as I said was understanding hwo the collapse edge flow should work and to increase our knowledge in the code overall.
+
+
+
+CREDIT: Ahmad Jabareen 207491101, Mohamad Kabha 206418592.
